@@ -4,3 +4,24 @@
 .sc-color{
     background-color: var(--my-color-green);
 }
+.debugs{
+    border: 1px solid white;
+}
+.customborder{
+    border: 2px solid white;
+    width:25%;
+    height: 3px;
+}
+.myfontsize{
+    font-size: 0.8em;
+}
+.customborder2{
+    border: 2px solid rgb(0, 0, 0);
+    width:25%;
+    height: 3px;
+}
+.customborder3{
+    border: 2px solid white;
+    width:15%;
+    height: 3px;
+}
