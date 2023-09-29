@@ -1,0 +1,6 @@
+:root{
+    --my-color-green:rgb(58, 243, 203);
+}
+.sc-color{
+    background-color: var(--my-color-green);
+}
