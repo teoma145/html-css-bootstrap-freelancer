@@ -1,5 +1,5 @@
 :root{
-    --my-color-green:rgb(58, 243, 203);
+    --my-color-green:rgb(25, 219, 177);
 }
 .sc-color{
     background-color: var(--my-color-green);
@@ -21,7 +21,21 @@
     height: 3px;
 }
 .customborder3{
-    border: 2px solid white;
+    border: 2px solid rgb(255, 255, 255);
     width:15%;
     height: 3px;
+}
+.customborder4{
+    border: 2px solid rgb(0, 0, 0);
+    width:15%;
+    height: 3px;
+}
+myfontsize2{
+    font-size:1.4em;
+}
+.mytext-color{
+    color: var(--my-color-green);
+}
+.myfootercolor{
+    background-color: rgb(7, 7, 121);
 }
