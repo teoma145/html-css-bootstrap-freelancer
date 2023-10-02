@@ -1,5 +1,5 @@
 :root{
-    --my-color-green:rgb(25, 219, 177);
+    --my-color-green:rgb(8, 148, 117);
 }
 .sc-color{
     background-color: var(--my-color-green);
@@ -29,4 +29,24 @@ myfontsize2{
 }
 .myfootercolor{
     background-color: rgb(7, 7, 121);
+}
+.myimgcontainer{
+    position:relative;
+    cursor: pointer;
+    
+}
+.myimgcontainer:hover::after{
+    content: '+';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--my-color-green);
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
 }
